@@ -42,8 +42,18 @@ Personal a/b, a/b/n... study repo.
 <p>For this problem, the success metric is the "price" or "number of itens purchases" not a proportion (0.15% -> 0.03% Lift), is a absolute number, (100 is the price sales mean for page A). The expected new price sales mean is 110 (status_quo * 1.10). Same problesm but with other expected metric for A/B Testing.</p>
 
 <h3>0.2. AB Test Key Facts On Ecommerce</h3>
-<p></p>
+<p>Why AB Testing ?</p>
+<p>You do a/b tests in order to improve a business metric for example a click conversion rate (CTR), sales, views or others. To improve these metrics, several techniques are developed, in the world of ux and design, the creation of new pages, color changes or other factors that influence the click, purchase or other metric that you are trying to improve with the elaboration of the new page.</p>
 
+<p>Top 5 E-commerce metrics:</p>
+
+<ul>
+  <li>CTR / Click Through Rate. Total of new customers per button click or similar.</li>
+  <li>CVR / Sales Conversion Rate. Total of new customers per successful sale.</li>
+  <li>CLF / Customer Lifetime Value. Total revenue acquired by a customer.</li>
+  <li>CAC / Customer Aquisition Cost. Price for aquisition of each client.</li>
+  <li>CAR / Cart Abandoned Rate. Why are customers abandoning carts??</li>
+</ul>
 
 <h2>1. Solution Strategy and Assumptions</h2>
 <hr>
