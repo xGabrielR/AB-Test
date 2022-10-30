@@ -51,9 +51,13 @@ Personal a/b, a/b/n... study repo.
 <p>For this problem, one way to solve is using ab test or other ab test approaches like multi armed bandits.</p>
 
 <h3>1.1. Conversion Rate Lift First CRISP Cycle</h3>
+<p>If do not have Data, its necessary to perform a Experiment Design step to infer number of samples and tools to segment the population into two groups called control and treatment. In this case, the samples were previously collected.</p>
+
 <p></p>
 
 <h3>1.2. Mean Price Lift First CRISP Cycle</h3>
+<p>If do not have Data, its necessary to perform a Experiment Design step to infer number of samples and tools to segment the population into two groups called control and treatment. In this case, the samples were previously collected.</p>
+
 <p></p>
 
 
