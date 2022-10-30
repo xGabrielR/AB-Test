@@ -53,13 +53,33 @@ Personal a/b, a/b/n... study repo.
 <h3>1.1. Conversion Rate Lift First CRISP Cycle</h3>
 <p>If do not have Data, its necessary to perform a Experiment Design step to infer number of samples and tools to segment the population into two groups called control and treatment. In this case, the samples were previously collected.</p>
 
+<ul>
+  <dl>
+    <dt>Descriptive Statistical.</dt>
+      <dd>This is the first step after you get the dataset, in this step you make simple cleanings like removing duplicates rows, erros on public segmentation and others cleanings, and see some statistical status when possible.</p>
+    <dt>Exploratory Data Analysis.</dt>
+      <dd>In this step you make some analysis on data and metric observed on the public segmentation experiment, the analyzes in this case are the visualization of the obtained distributions and some validations of homogeneity.</dt>
+    <dt>Experiment Design.</dt>
+      <dd>Focus on previos hypothesis definition validation, setup the parameters of test, re-sample if necessary, compute explcit metrics, select and apply inference statistical test and translate results to money!.</dd>
+  </dl>
+</ul>
+
 <p></p>
 
 <h3>1.2. Mean Price Lift First CRISP Cycle</h3>
 <p>If do not have Data, its necessary to perform a Experiment Design step to infer number of samples and tools to segment the population into two groups called control and treatment. In this case, the samples were previously collected.</p>
+<p>Same steps of proportion test</p>
 
-<p></p>
-
+<ul>
+  <dl>
+    <dt>Descriptive Statistical.</dt>
+      <dd>This is the first step after you get the dataset, in this step you make simple cleanings like removing duplicates rows, erros on public segmentation and others cleanings, and see some statistical status when possible.</p>
+    <dt>Exploratory Data Analysis.</dt>
+      <dd>In this step you make some analysis on data and metric observed on the public segmentation experiment, the analyzes in this case are the visualization of the obtained distributions and some validations of homogeneity.</dt>
+    <dt>Experiment Design.</dt>
+      <dd>Focus on previos hypothesis definition validation, setup the parameters of test, re-sample if necessary, compute explcit metrics, select and apply inference statistical test and translate results to money!.</dd>
+  </dl>
+</ul>
 
 
 <h2>2. AB Test Key Facts</h2>
