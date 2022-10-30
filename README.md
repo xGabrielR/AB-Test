@@ -39,7 +39,7 @@ Personal a/b, a/b/n... study repo.
 <p>The word conversion has several meanings, for this specific problem it is precisely the purchase, "the purchase of the bluetooth keyboard".</p>
 
 <h4>0.1.2. Mean Price Lift</h4>
-<p></p>
+<p>For this problem, the success metric is the "price" or "number of itens purchases" not a proportion (0.15% -> 0.03% Lift), is a absolute number, (100 is the price sales mean for page A). The expected new price sales mean is 110 (status_quo * 1.10). Same problesm but with other expected metric for A/B Testing.</p>
 
 <h3>0.2. AB Test Key Facts On Ecommerce</h3>
 <p></p>
@@ -48,7 +48,7 @@ Personal a/b, a/b/n... study repo.
 <h2>1. Solution Strategy and Assumptions</h2>
 <hr>
 
-<p></p>
+<p>For this problem, one way to solve is using ab test or other ab test approaches like multi armed bandits.</p>
 
 <h3>1.1. Conversion Rate Lift First CRISP Cycle</h3>
 <p></p>
@@ -64,14 +64,24 @@ Personal a/b, a/b/n... study repo.
 <p></p>
 
 <h3>2.1. The Effect Size</h3>
-<p></p>
+<p>The effect size is nothing more than a result based on how big the expected effect is. In other words, the power of a statistical test is the probability that it will produce statistically significant results.</p>
+
+- The effect size defines the size of the sample to be collected in both groups to start the segmentation of control and treatment.
+- Small differences require more data, larger differences require less data.
+
+<p>There are two distributions, the normal distribution already measured (status quo) and the distribution observed after collecting and preparing these data. If the expected observation is small, then both distributions will be close and more data will be needed because there is a lot of uncertainty (overlapping), whereas when the observation is very large, little data is needed because both distributions will be well separated.</p>
 
 <h3>2.2. The Sample Size</h3>
-<p></p>
+</p>The sample size or $n$ is the function of $effect~size$, $a$ and $power$. In this example, when the investigator anticipates a certain effect size or calculates it including the alpha and power of the test, with these three parameters it is possible to calculate the minimum size of a sample for the appropriate statistical inferences.</p>
+
+<p>Based on cohen's book, there are tables for certain sample sizes based on the type of test, for example the chi square test there are tables for the sample size of the type (contingency test and fit test) for various definitions of alpha, effect size and power.</p>
+
+<p>Some of the formulas and definitions is implemented on pythons library called "statsmodels", but, for Anova test, it's gives "wrongs" samples sizes, need to checkout on future ;-;</p>
 
 <h3>2.3. The Statistical Inference</h3>
-<p></p>
+<p>"Statistical inference is the process of using a sample to infer the properties of a population. Statistical procedures use sample data to estimate the characteristics of the whole population from which the sample was drawn." ~ Jim</p>
 
+<p>By using procedures that can make statistical inferences, you can estimate the properties and processes of a population. More specifically, sample statistics can estimate population parameters.</p>
 
 <h2>3. References</h2>
 <hr>
@@ -80,5 +90,5 @@ Personal a/b, a/b/n... study repo.
 
 <ul>
   <li><a href="https://www.shopify.com/blog/basic-ecommerce-metrics">Basic Ecommerce Metrics.</a></li>
-  <li><a href="">.</a></li>
+  <li><a href="https://statisticsbyjim.com/hypothesis-testing/statistical-inference/">Statisticsbyjim.</a></li>
 </ul>
