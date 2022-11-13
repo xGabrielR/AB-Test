@@ -9,7 +9,9 @@ Personal a/b, a/b/n... study repo.
 - [0. Business Cases](#0-business-cases)
   - [0.1. Eletronic House Company](#01-eletronic-house-company)
     - [0.1.1. Conversion Rate Lift](#011-conversion-rate-lift)
+      - [0.1.1.1. Metric Definition](#0111-metric-definition)
     - [0.1.2. Mean Price Lift](#012-mean-price-lift)
+    - [0.1.3. Multiple Page Titles](#012-multiple-page-titles)
   - [0.2. AB Test Key Facts On Ecommerce](#02-ab-test-key-facts-on-ecommerce)
 - [1. Solution Strategy and Assumptions](#1-solution-strategy-and-assumptions)
   - [1.1. Conversion Rate Lift First CRISP Cycle](#11-conversion-rate-lift-first-crisp-cycle)
@@ -37,6 +39,9 @@ Personal a/b, a/b/n... study repo.
 <h5>0.1.1.1. Metric Definition</h5>
 <p>For this problem, the success metric is "conversion rate", based on status quo conversion (12%) the P.M. expects a new conversion based on ux designers team new page. The expected new conversion is 15% ([13% status quo] + [2% of new page]) for bluetooth keyboard.</p>
 <p>The word conversion has several meanings, for this specific problem it is precisely the purchase, "the purchase of the bluetooth keyboard".</p>
+
+<h4>0.1.2. Mean Price Lift</h4>
+<p>For this problem, the success metric is the "price" or "number of itens purchases" not a proportion (0.15% -> 0.03% Lift), is a absolute number, (100 is the price sales mean for page A). The expected new price sales mean is 110 (status_quo * 1.10). Same problesm but with other expected metric for A/B Testing.</p>
 
 <h4>0.1.2. Mean Price Lift</h4>
 <p>For this problem, the success metric is the "price" or "number of itens purchases" not a proportion (0.15% -> 0.03% Lift), is a absolute number, (100 is the price sales mean for page A). The expected new price sales mean is 110 (status_quo * 1.10). Same problesm but with other expected metric for A/B Testing.</p>
@@ -77,6 +82,22 @@ Personal a/b, a/b/n... study repo.
 <p></p>
 
 <h3>1.2. Mean Price Lift First CRISP Cycle</h3>
+<p>If do not have Data, its necessary to perform a Experiment Design step to infer number of samples and tools to segment the population into two groups called control and treatment. In this case, the samples were previously collected.</p>
+<p>Same steps of proportion test</p>
+
+<ul>
+  <dl>
+    <dt>Descriptive Statistical.</dt>
+      <dd>This is the first step after you get the dataset, in this step you make simple cleanings like removing duplicates rows, erros on public segmentation and others cleanings, and see some statistical status when possible.</p>
+    <dt>Exploratory Data Analysis.</dt>
+      <dd>In this step you make some analysis on data and metric observed on the public segmentation experiment, the analyzes in this case are the visualization of the obtained distributions and some validations of homogeneity.</dt>
+    <dt>Experiment Design.</dt>
+      <dd>Focus on previos hypothesis definition validation, setup the parameters of test, re-sample if necessary, compute explcit metrics, select and apply inference statistical test and translate results to money!.</dd>
+  </dl>
+</ul>
+
+
+<h3>1.2. Multiple Page Titles First CRIPS Cycle</h3>
 <p>If do not have Data, its necessary to perform a Experiment Design step to infer number of samples and tools to segment the population into two groups called control and treatment. In this case, the samples were previously collected.</p>
 <p>Same steps of proportion test</p>
 
